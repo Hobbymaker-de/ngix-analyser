@@ -7,3 +7,4 @@
 - Zugriffe auf Admin-, Login- oder Setup-Seiten
 - Requests mit verdächtigen Parametern (?cmd=, ?id=1'--, etc.)
 ## Der Aufruf benötigt root (sudo)-Rechte, um an die access.log zu kommen.
+#ngix #python #access.log
