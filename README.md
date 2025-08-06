@@ -3,7 +3,7 @@
 - HTTP-Fehlercodes wie 4xx, 5xx (z. B. 404, 500)
 - Viele Anfragen von einer IP (mögliche Brute-Force oder Scan-Versuche)
 - Verdächtige User-Agents (z. B. sqlmap, nikto, curl, etc.)
-- POST-Requests (z. B. unerwartete Loginversuche)
+- POST/GET-Requests (z. B. unerwartete Loginversuche)
 - Zugriffe auf Admin-, Login- oder Setup-Seiten
 - Requests mit verdächtigen Parametern (?cmd=, ?id=1'--, etc.)
 ### Neu hinzugefügt: Abfrage auf den Ländercode der ip-Adressen.
