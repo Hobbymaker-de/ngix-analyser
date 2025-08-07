@@ -6,7 +6,9 @@
 - POST/GET-Requests (z. B. unerwartete Loginversuche)
 - Zugriffe auf Admin-, Login- oder Setup-Seiten
 - Requests mit verdächtigen Parametern (?cmd=, ?id=1'--, etc.)
-### Neu hinzugefügt: Abfrage auf den Ländercode der ip-Adressen.
+### Neu hinzugefügt: 
+-Abfrage auf den Ländercode der ip-Adressen.
+-Datum/Uhrzeit der Anfragen
 
 ## Der Aufruf benötigt root (sudo)-Rechte, um an die access.log zu kommen.
 #ngix #python #access.log
