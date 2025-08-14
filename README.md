@@ -1,4 +1,4 @@
-# Das Skipt analysiert die access.log des ngix auf verdächtige Aktivitäten
+# Das Skipt analysiert die access.log des nginx auf verdächtige Aktivitäten
 ## Was das Skript erkennt:
 - HTTP-Fehlercodes wie 4xx, 5xx (z. B. 404, 500)
 - Viele Anfragen von einer IP (mögliche Brute-Force oder Scan-Versuche)
